@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>SINESTRALIDAD-PREDICT</title>
+  <style>
+    body {
+      font-family: "Segoe UI", Arial, sans-serif;
+      margin: 0;
+      background: #f4f4f4;
+      color: #222;
+    }
+
+    header {
+      background: linear-gradient(90deg, #2e7d32, #fbc02d, #d32f2f);
+      color: white;
+      text-align: center;
+      padding: 20px 10px;
+    }
+
+    header h1 {
+      margin: 0;
+      font-size: 2em;
+      letter-spacing: 1px;
+    }
+
+    main {
+      padding: 20px;
+      max-width: 1200px;
+      margin: auto;
+    }
+
+    .descripcion {
+      text-align: center;
+      margin-bottom: 25px;
+      font-size: 1.1em;
+      color: #333;
+    }
+
+    .powerbi-container {
+      width: 100%;
+      height: 80vh;
+      border: 3px solid #2e7d32;
+      border-radius: 12px;
+      overflow: hidden;
+      box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+    }
+
+    iframe {
+      width: 100%;
+      height: 100%;
+      border: none;
+    }
+
+    footer {
+      text-align: center;
+      background: #222;
+      color: white;
+      padding: 10px;
+      font-size: 0.9em;
+      margin-top: 20px;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>SINESTRALIDAD-PREDICT</h1>
+  </header>
+
+  <main>
+    <div class="descripcion">
+      <p><strong>Sistema de análisis y predicción de riesgos laborales.</strong><br>
+      Visualiza la tasa de accidentabilidad, proyecciones y niveles de riesgo en tiempo real mediante datos generados en Power BI.</p>
+    </div>
+
+    <div class="powerbi-container">
+      <!-- 👉 Reemplaza el enlace de abajo con tu enlace público de Power BI -->
+      <iframe src="https://app.powerbi.com/view?r=TU_ENLACE_AQUI" allowFullScreen="true"></iframe>
+    </div>
+  </main>
+
+  <footer>
+    Proyecto desarrollado por [Tu nombre] — 2025 · Basado en análisis predictivo de seguridad laboral.
+  </footer>
+</body>
+</html>
